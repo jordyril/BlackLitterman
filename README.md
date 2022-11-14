@@ -1,2 +1,2 @@
 # BlackLitterman
-Uni project - Black Litterman project implemented in C++
+Uni project 2018 - Black Litterman project implemented in C++
