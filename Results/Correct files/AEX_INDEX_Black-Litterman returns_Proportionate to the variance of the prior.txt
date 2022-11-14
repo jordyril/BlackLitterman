@@ -1,0 +1,114 @@
+MEAN-VARIANCE OPTIMISATION - report made: 03/23/18 19:15:13
+=========================================================== 
+EXECUTIVE SUMMARY
+=========================================================== 
+Parameters of optimisation proces: 
+	-> Returns used: Black-Litterman returns
+		>> Method for computing Omega = Proportionate to the variance of the prior
+	-> Assumed Market risk aversion: 1.27
+	-> Assumed Personal risk aversion: 1.27
+	-> Assumed Market inefficiency: 5%
+	-> Portfolio under consideration: AEX_INDEX
+	-> Number of views: 3
+----------------------------------------------------------- 
+PORTFOLIO DESCRIPTION - (All data are annualised data):
+=========================================================== 
+The portfolio AEX_INDEX contains the following 6 assets :
+(weight in the portfolio): 
+1. AEX (100%)
+2. ING (0%)
+3. Randstad (0%)
+4. Philips (0%)
+5. Ahold (0%)
+6. Unilever (0%)
+
+The returns series consist of Weekly data, with a total of 522 observations per Asset.
+Based on the initially given weights and past performance of the individual assets:
+-> The portfolio past average return = 6.15%;
+-> The portfolio volatility = 20.8%;
+-> The portfolio Sharpe Ratio = 0.296
+
+The correlation between assets is represented with the correlation matrix:
+    1.     2.     3.     4.     5.     6. 
+     1 0.7784 0.7215 0.7797 0.5001 0.5706 
+0.7784      1 0.6121 0.5753  0.254 0.2975 
+0.7215 0.6121      1 0.5522 0.3614 0.3552 
+0.7797 0.5753 0.5522      1 0.3688 0.4708 
+0.5001  0.254 0.3614 0.3688      1 0.3968 
+0.5706 0.2975 0.3552 0.4708 0.3968      1 
+
+Going deeper into the individual assets:
+AEX: 
+Mean return = 6.15%
+Variance = 4.32%^2
+STDV = 20.8%
+Sharpe ratio = 0.296
+
+ING: 
+Mean return = 10.5%
+Variance = 23.2%^2
+STDV = 48.2%
+Sharpe ratio = 0.218
+
+Randstad: 
+Mean return = 14.4%
+Variance = 15.5%^2
+STDV = 39.3%
+Sharpe ratio = 0.367
+
+Philips: 
+Mean return = 9.07%
+Variance = 7.94%^2
+STDV = 28.2%
+Sharpe ratio = 0.322
+
+Ahold: 
+Mean return = 10.7%
+Variance = 4.73%^2
+STDV = 21.8%
+Sharpe ratio = 0.492
+
+Unilever: 
+Mean return = 12.9%
+Variance = 3.98%^2
+STDV = 20%
+Sharpe ratio = 0.644
+
+----------------------------------------------------------- 
+SUMMARY OF THE VIEWS
+=========================================================== 
+View 1:
+	ING will have an excess return of 12%.
+		-> Standard error surrounding this view, based on expert opinion: 1.2%.
+		-> Confidence surrounding this view: 40%.
+View 2:
+	Randstad will perform the same as Philips
+		-> Standard error surrounding this view, based on expert opinion: 10%.
+		-> Confidence surrounding this view: 80%.
+View 3:
+	Unilever will OUTPERFORM Ahold with 1%.
+		-> Standard error surrounding this view, based on expert opinion: 0.1%.
+		-> Confidence surrounding this view: 60%.
+----------------------------------------------------------- 
+OPTIMIZATION SUMMARY
+=========================================================== 
+The optimal weighting of the Assets in this portfolio is 
+based on a Mean-Variance optimal solution.
+Black-Litterman returns are used as input for the model.
+Proportionate to the variance of the prior is used for computing the variance arround the views.
+
+The optimal weights are:
+	AEX       :   100.00%
+	ING       :     4.04%
+	Randstad  :    -6.46%
+	Philips   :     6.46%
+	Ahold     :    -5.96%
+	Unilever  :     5.96%
+	Riskfree  :    -4.04%
+
+The PERFORMANCE of the optimally balanced portfolio:
+	-> Expected excess return: 6.20%
+	-> Expected volatility: 22.10%
+	-> Sharpe-ratio: 0.2807
+----------------------------------------------------------- 
+=========================================================== 

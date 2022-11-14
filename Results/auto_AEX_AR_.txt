@@ -1,0 +1,96 @@
+MEAN-VARIANCE OPTIMISATION - report made: 03/25/18 20:56:25
+=========================================================== 
+EXECUTIVE SUMMARY
+=========================================================== 
+Parameters of optimisation proces: 
+	-> Returns used: Average returns
+	-> Assumed Market risk aversion: 1.27
+	-> Assumed Personal risk aversion: 1.27
+	-> Portfolio under consideration: AEX Index
+----------------------------------------------------------- 
+PORTFOLIO DESCRIPTION - (All data are annualised data):
+=========================================================== 
+The portfolio AEX Index contains the following 6 assets :
+(weight in the portfolio): 
+1. AEX (100%)
+2. Philips (0%)
+3. Unilever (0%)
+4. Ahold (0%)
+5. ING (0%)
+6. Randstad (0%)
+
+The returns series consist of Weekly data, with a total of 522 observations per Asset.
+Based on the initially given weights and past performance of the individual assets:
+-> The portfolio past average return = 6.15%;
+-> The portfolio volatility = 20.8%;
+-> The portfolio Sharpe Ratio = 0.296
+
+The correlation between assets is represented with the correlation matrix:
+    1.     2.     3.     4.     5.     6. 
+     1 0.7797 0.5706 0.5001 0.7784 0.7215 
+0.7797      1 0.4708 0.3688 0.5753 0.5522 
+0.5706 0.4708      1 0.3968 0.2975 0.3552 
+0.5001 0.3688 0.3968      1  0.254 0.3614 
+0.7784 0.5753 0.2975  0.254      1 0.6121 
+0.7215 0.5522 0.3552 0.3614 0.6121      1 
+
+Going deeper into the individual assets:
+AEX: 
+Mean return = 6.15%
+Variance = 4.32%^2
+STDV = 20.8%
+Sharpe ratio = 0.296
+
+Philips: 
+Mean return = 9.07%
+Variance = 7.94%^2
+STDV = 28.2%
+Sharpe ratio = 0.322
+
+Unilever: 
+Mean return = 12.9%
+Variance = 3.98%^2
+STDV = 20%
+Sharpe ratio = 0.644
+
+Ahold: 
+Mean return = 10.7%
+Variance = 4.73%^2
+STDV = 21.8%
+Sharpe ratio = 0.492
+
+ING: 
+Mean return = 10.5%
+Variance = 23.2%^2
+STDV = 48.2%
+Sharpe ratio = 0.218
+
+Randstad: 
+Mean return = 14.4%
+Variance = 15.5%^2
+STDV = 39.3%
+Sharpe ratio = 0.367
+
+----------------------------------------------------------- 
+OPTIMIZATION SUMMARY
+=========================================================== 
+The optimal weighting of the Assets in this portfolio is 
+based on a Mean-Variance optimal solution.
+Average returns are used as input for the model.
+
+
+The optimal weights are:
+	AEX       :  -407.52%
+	Philips   :    68.70%
+	Unilever  :   290.05%
+	Ahold     :   152.61%
+	ING       :    58.73%
+	Randstad  :    74.90%
+	Riskfree  :  -137.49%
+
+The PERFORMANCE of the optimally balanced portfolio:
+	-> Expected excess return: 51.80%
+	-> Expected volatility: 63.87%
+	-> Sharpe-ratio: 0.8111
+----------------------------------------------------------- 
+=========================================================== 

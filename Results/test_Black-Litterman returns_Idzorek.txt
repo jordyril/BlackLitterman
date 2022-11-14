@@ -1,0 +1,115 @@
+MEAN-VARIANCE OPTIMISATION - report made: 03/25/18 21:30:38
+=========================================================== 
+EXECUTIVE SUMMARY
+=========================================================== 
+Parameters of optimisation proces: 
+	-> Returns used: Black-Litterman returns
+		>> Method for computing Omega = Idzorek
+	-> Assumed Market risk aversion: 1.27
+	-> Assumed Personal risk aversion: 1.27
+	-> Assumed Market inefficiency: 127%
+	-> Portfolio under consideration: test
+	-> Number of views: 1
+----------------------------------------------------------- 
+PORTFOLIO DESCRIPTION - (All data are annualised data):
+=========================================================== 
+The portfolio test contains the following 7 assets :
+(weight in the portfolio): 
+1. France (6.9%)
+2. Germany (5.32%)
+3. Italy (2.27%)
+4. UK (11.48%)
+5. US (53.52%)
+6. Canada (6.57%)
+7. Japan (13.94%)
+
+The returns series consist of Weekly data, with a total of 261 observations per Asset.
+Based on the initially given weights and past performance of the individual assets:
+-> The portfolio past average return = 2.42%;
+-> The portfolio volatility = 19.5%;
+-> The portfolio Sharpe Ratio = 0.124
+
+The correlation between assets is represented with the correlation matrix:
+    1.     2.     3.     4.     5.     6.     7. 
+     1 0.9083   0.93 0.8914 0.7481 0.7983 0.4135 
+0.9083      1 0.8625 0.8616 0.7819 0.7831 0.3728 
+  0.93 0.8625      1 0.8313 0.6892 0.7693 0.4141 
+0.8914 0.8616 0.8313      1 0.7834  0.833 0.4254 
+0.7481 0.7819 0.6892 0.7834      1 0.7805 0.4785 
+0.7983 0.7831 0.7693  0.833 0.7805      1 0.4225 
+0.4135 0.3728 0.4141 0.4254 0.4785 0.4225      1 
+
+Going deeper into the individual assets:
+France: 
+Mean return = 3.48%
+Variance = 5.39%^2
+STDV = 23.2%
+Sharpe ratio = 0.15
+
+Germany: 
+Mean return = 6.43%
+Variance = 5.38%^2
+STDV = 23.2%
+Sharpe ratio = 0.277
+
+Italy: 
+Mean return = -1.31%
+Variance = 6.05%^2
+STDV = 24.6%
+Sharpe ratio = -0.0534
+
+UK: 
+Mean return = 3.23%
+Variance = 6.35%^2
+STDV = 25.2%
+Sharpe ratio = 0.128
+
+US: 
+Mean return = 2.68%
+Variance = 4.59%^2
+STDV = 21.4%
+Sharpe ratio = 0.125
+
+Canada: 
+Mean return = 9.57%
+Variance = 7.41%^2
+STDV = 27.2%
+Sharpe ratio = 0.352
+
+Japan: 
+Mean return = -4.04%
+Variance = 3.14%^2
+STDV = 17.7%
+Sharpe ratio = -0.228
+
+----------------------------------------------------------- 
+SUMMARY OF THE VIEWS
+=========================================================== 
+View 1:
+	France will OUTPERFORM Germany with 1%.
+		-> Standard error surrounding this view, based on expert opinion: 4%.
+		-> Confidence surrounding this view: 50%.
+----------------------------------------------------------- 
+OPTIMIZATION SUMMARY
+=========================================================== 
+The optimal weighting of the Assets in this portfolio is 
+based on a Mean-Variance optimal solution.
+Black-Litterman returns are used as input for the model.
+Idzorek is used for computing the variance arround the views.
+
+The optimal weights are:
+	France    :     6.90%
+	Germany   :     5.32%
+	Italy     :     2.27%
+	UK        :    11.48%
+	US        :    53.52%
+	Canada    :     6.57%
+	Japan     :    13.94%
+	Riskfree  :    -0.00%
+
+The PERFORMANCE of the optimally balanced portfolio:
+	-> Expected excess return: 4.84%
+	-> Expected volatility: 19.53%
+	-> Sharpe-ratio: 0.2480
+----------------------------------------------------------- 
+=========================================================== 
